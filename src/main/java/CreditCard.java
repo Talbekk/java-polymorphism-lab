@@ -10,17 +10,17 @@ public class CreditCard extends BankCard implements IScan{
 //        this.securityNumber = securityNumber;
     }
 
-    public String getCardNumber() {
-        return this.cardNumber;
-    }
+//    public String getCardNumber() {
+//        return this.cardNumber;
+//    }
 
-    public String getExpiryDate() {
-        return this.expiryDate;
-    }
+//    public String getExpiryDate() {
+//        return this.expiryDate;
+//    }
 
-    public int getSecurityNumber() {
-        return this.securityNumber;
-    }
+//    public int getSecurityNumber() {
+//        return this.securityNumber;
+//    }
 
     public String scan() {
         return "Payment Successful";
